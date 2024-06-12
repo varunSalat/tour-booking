@@ -92,8 +92,7 @@
 <!-- !SMTP LINK-->
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <!-- !GSAP -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script> -->
+
 <!-- !LOCAL JS -->
 <script src="./scripts/main.js?v=<?=$version?>"></script>
 </body>

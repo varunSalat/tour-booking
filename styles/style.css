@@ -31,7 +31,7 @@ body {
   --primary_header: 2.5rem;
   --secondery_header: 2rem;
   --tertiary_header: 1.5rem;
-  --body_text: 1.2rem;
+  --body_text: 1.1rem;
   --label_text: 1rem;
   --four-em-margin: 6em;
 }
@@ -42,7 +42,7 @@ body {
     --primary_header: 2.2rem;
     --secondery_header: 1.8rem;
     --tertiary_header: 1.2rem;
-    --body_text: 1.2rem;
+    --body_text: 1.1rem;
     --label_text: 1rem;
   }
 }
@@ -101,8 +101,15 @@ ul li {
 }
 
 .btn {
+  cursor: pointer;
+  display: inline-block;
   font-size: var(--body_text);
-  padding: 0.6em 0.4em;
+  padding: 0.4em 0.6em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .section_header {
@@ -359,8 +366,8 @@ ul li {
   cursor: pointer;
   display: inline-block;
   margin-top: 0.5em;
-  background-color: var(--white_color);
-  color: red !important;
+  background-color: var(--primary_color);
+  color: var(--white_color);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -375,6 +382,7 @@ ul li {
 
 .hero_btn:hover {
   background-color: var(--primary_color);
+  color: var(--white_color);
 }
 
 /* !CUSTOME PACKGE FORM */
@@ -762,7 +770,7 @@ body {
 /* !<!-- !OUR TESTIMONIAL SECTION --> */
 
 .swiper {
-  width: 100%;
+  width: 90%;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 2em;
@@ -774,11 +782,11 @@ body {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   background-position: center;
   background-size: cover;
-  width: min(500px, 100%);
+  width: min(400px, 95%);
   min-height: 300px;
-  height: 350px;
+  height: 300px;
   margin: 0 1em;
-  padding: 1em;
+  padding: 0.5em;
   overflow: hidden;
   border-radius: 10px;
   -webkit-border-radius: 10px;
