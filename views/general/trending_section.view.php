@@ -12,19 +12,22 @@
             <div class="trending_img">
                 <img src="<?=$trip->imgs[0]?>" alt="<?=$trip->Name?>">
             </div>
-            <div class="trending_card_name">
-                <h4><?=$trip->Name?></h4>
-            </div>
-            <div class="trending_dis flex">
-                <div class="trending_inner_dis">
-                    <p class="trending_price_container">Starting with: ₹<span
-                            class="trending_price"><?=$trip->Starting_Price?></span> </p>
-                    <p class="treding_duration_container flex"><i class="fa-regular fa-clock"></i> <span
-                            class="trending_duration"><?=$trip->days?>D/<?=$trip->days-1?>N</span></p>
+            <div class="flex" style="justify-content: space-between; flex-direction:column; align-items: flex-start;">
+                <div class="trending_card_name">
+                    <h4><?=$trip->Name?></h4>
                 </div>
-                <div class="trending_inner_dis">
-                    <a href="./detail.php?trip=<?=str_replace(' ', '_', $trip->Name)?>" class="trending_btn btn">Send
-                        Enquiry</a>
+                <div class="trending_dis flex" style="justify-content: space-between; width:100%;">
+                    <div class="trending_inner_dis">
+                        <p class="trending_price_container">Starting with: ₹<span
+                                class="trending_price"><?=$trip->Starting_Price?></span> </p>
+                        <p class="treding_duration_container flex"><i class="fa-regular fa-clock"></i> <span
+                                class="trending_duration"><?=$trip->days?>D/<?=$trip->days-1?>N</span></p>
+                    </div>
+                    <div class="trending_inner_dis">
+                        <a href="./detail.php?trip=<?=str_replace(' ', '_', $trip->Name)?>"
+                            class="trending_btn btn">Send
+                            Enquiry</a>
+                    </div>
                 </div>
             </div>
         </div>

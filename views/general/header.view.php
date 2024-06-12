@@ -61,7 +61,7 @@ require("./function/config.php");
                 <li><a href="./">Home</a></li>
                 <li><a href="./tour.php">Tours</a></li>
                 <li><a href="./track.php">Treks</a></li>
-                <li><a href="#contact_us">Contact Us</a></li>
+                <li><a href="./contact-us.php">Contact Us</a></li>
             </ul>
             <div class="three_dot_container">
                 <i class="dot-1"></i>

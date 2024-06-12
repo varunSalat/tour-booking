@@ -6,5 +6,7 @@ view("hero_section","general");
 view("trending_section","general");
 view("why_choose_us","general");
 view("testimonial","general");
+view("contact_form","general");
+view("routes_section","general");
 view("footer","general");
 ?>
