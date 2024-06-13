@@ -13,10 +13,10 @@ require("./function/config.php");
         content="Trail blenders is a travel community that has been engaging in trekking and travelling for a long time. We are a group of experienced professionals who are passionate about helping others to explore the world.">
     <meta name="keywords" content="Trail Blenders, Tours & Travels Company, Trekking, Hiking">
     <!-- !FEVICON ICONS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="./site.webmanifest">
     <!-- !FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!-- !SWIPER JS -->
@@ -54,8 +54,7 @@ require("./function/config.php");
                 <i></i>
             </div>
             <div class="logo_container">
-                <a href="./" id="text_logo"><img src="./img/text_logo.webp" alt="logo_img"></a>
-                <a href="./" id="solo_logo"><img src="./img/logo.webp" alt="logo_img"></a>
+                <a href="./" id="text_logo"><img src="./img/logo.webp" alt="logo_img"></a>
             </div>
             <ul class="main_nav_link_container flex">
                 <li><a href="./">Home</a></li>

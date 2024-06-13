@@ -2,12 +2,15 @@
     require("./function/config.php");
 ?>
 
+<div class="whats_app_fixed_btn" id="whatsappBtn">
+    <a href="https://wa.me/+919624860420" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
 
 <!-- !FOOTER -->
 <footer id="footer" class="section flex">
     <div class="footer_div">
         <div class="logo_container">
-            <a href="#" class="footer_logo"><img src="./img/text_logo.webp" alt="logo_img"></a>
+            <a href="./index.php" class="footer_logo"><img src="./img/logo.webp" alt="logo_img"></a>
         </div>
         <p class="footer_div_dis">Trail blenders is a travel community that has been engaging in trekking and travelling
             for a long time. We are a group of experienced professionals who are passionate about helping others to

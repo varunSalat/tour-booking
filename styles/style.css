@@ -4,7 +4,7 @@
 :root {
   /* --primary_color: rgb(192, 125, 0); */
   /* --primary_color: rgb(21, 164, 199); */
-  --primary_color: rgb(21, 92, 199);
+  --primary_color: #59bc69;
   --black_color: #000;
   --secondery_black_color: rgb(92, 92, 92);
   --tertiary_black_color: rgb(146, 146, 146);
@@ -23,7 +23,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   overflow-x: hidden;
   overflow: hidden;
   max-width: 100vw;
@@ -104,6 +104,7 @@ ul li {
   cursor: pointer;
   display: inline-block;
   font-size: var(--body_text);
+  color: var(--black_color);
   padding: 0.4em 0.6em;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -229,11 +230,11 @@ ul li {
 
 #main_nav.active {
   background-color: var(--black_color) !important;
-  transform: translateY(-45px);
-  -webkit-transform: translateY(-45px);
-  -moz-transform: translateY(-45px);
-  -ms-transform: translateY(-45px);
-  -o-transform: translateY(-45px);
+  transform: translateY(-37px);
+  -webkit-transform: translateY(-37px);
+  -moz-transform: translateY(-37px);
+  -ms-transform: translateY(-37px);
+  -o-transform: translateY(-37px);
   transition: var(--three_mili);
   -webkit-transition: var(--three_mili);
   -moz-transition: var(--three_mili);
@@ -241,16 +242,12 @@ ul li {
   -o-transition: var(--three_mili);
 }
 
-#solo_logo {
-  display: none;
-}
-
 .logo_container {
   padding: 0.5em 0;
 }
 
 .logo_container a img {
-  width: 300px;
+  width: 40px;
 }
 
 .main_nav_link_container li {
@@ -368,11 +365,6 @@ ul li {
   margin-top: 0.5em;
   background-color: var(--primary_color);
   color: var(--white_color);
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   transition: var(--three_mili);
   -webkit-transition: var(--three_mili);
   -moz-transition: var(--three_mili);
@@ -486,6 +478,13 @@ body {
   padding: 0.6em 1em;
 }
 
+/* !Special Offers Cards */
+.trending_offer_text {
+  margin-bottom: 2em;
+  font-size: var(--tertiary_header);
+  border-bottom: 4px solid var(--primary_color);
+  width: fit-content;
+}
 /* !<!-- !PACKEGE SECTION --> */
 
 #packges_section {
@@ -578,9 +577,9 @@ body {
 }
 
 .trending_card {
-  height: 405px;
-  width: min(380px, 100%);
-  padding: 1em;
+  height: 380px;
+  width: min(350px, 100%);
+  padding: 0.6em;
   margin: 2em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
@@ -603,9 +602,8 @@ body {
 
 .trending_card_name {
   margin: 0.5em 0;
-  font-size: var(--tertiary_header);
+  font-size: var(--body_text);
 }
-
 .trending_dis {
   justify-content: space-between;
   align-items: flex-start;
@@ -628,16 +626,11 @@ body {
 }
 
 .trending_btn {
-  padding: 0.8em 0.5em;
+  /* padding: 0.8em 0.5em; */
   font-size: var(--label_text);
   background-color: var(--primary_color);
   color: var(--white_color);
-  border: none;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+
   transition: var(--three_mili);
   -webkit-transition: var(--three_mili);
   -moz-transition: var(--three_mili);
@@ -985,8 +978,81 @@ body {
   height: 100%;
 }
 
+/* !ROUTES SECTION */
+.routes_section {
+  background-color: #f9f9f9;
+  padding: 2em 5%;
+}
+.routes_navbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.route_nav_btn {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--tertiary_black_color);
+  width: 100%;
+  font-size: var(--label_text);
+  color: var(--secondery_black_color);
+  padding-bottom: 1em;
+}
+.route_nav_btn.active {
+  color: var(--primary_color);
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary_color);
+}
+.routes_main_container {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+}
+.route {
+  gap: 0.5em;
+  color: var(--secondery_black_color);
+}
+.route i {
+  font-size: 12px;
+}
+
 /* !<!-- !FOOTER --> */
 
+.whats_app_fixed_btn {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  background-color: var(--primary_color);
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transform: translateX(200%);
+  -webkit-transform: translateX(200%);
+  -moz-transform: translateX(200%);
+  -ms-transform: translateX(200%);
+  -o-transform: translateX(200%);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.whats_app_fixed_btn.show {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.whats_app_fixed_btn a {
+  font-size: 1.5rem;
+  color: var(--white_color);
+}
 #footer {
   background-color: var(--black_color);
   justify-content: space-between;
@@ -1006,7 +1072,7 @@ body {
 }
 
 .footer_div_header {
-  font-size: var(--secondery_header);
+  font-size: var(--tertiary_header);
   color: var(--primary_color);
   margin-bottom: 0.5em;
   display: block;
@@ -1478,7 +1544,7 @@ body {
   }
 
   .logo_container a img {
-    width: 250px;
+    width: 45px;
   }
 
   #secondery_nav {
@@ -1617,15 +1683,6 @@ body {
 }
 
 @media screen and (max-width: 350px) {
-  #text_logo {
-    display: none;
-    opacity: 0;
-  }
-
-  #solo_logo {
-    display: block;
-  }
-
   .logo_container a img {
     width: 50px;
   }

@@ -77,6 +77,7 @@ var swiper = new Swiper(".mySwiper", {
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: "auto",
+
   coverflowEffect: {
     rotate: 0,
     stretch: 0,
@@ -86,6 +87,10 @@ var swiper = new Swiper(".mySwiper", {
   },
   pagination: {
     el: ".swiper-pagination",
+  },
+  autoplay: {
+    delay: 1000, // Delay between transitions in milliseconds
+    disableOnInteraction: false, // Keep autoplay running even after user interaction
   },
 });
 
@@ -182,3 +187,17 @@ function sendmail() {
     }
   });
 }
+
+// !WhatsApp Fixed button
+// Function to check scroll position
+function checkScroll() {
+  const whatsappBtn = document.getElementById("whatsappBtn");
+  if (window.scrollY >= window.innerHeight) {
+    whatsappBtn.classList.add("show");
+  } else {
+    whatsappBtn.classList.remove("show");
+  }
+}
+
+// Event listener for scroll event
+window.addEventListener("scroll", checkScroll);

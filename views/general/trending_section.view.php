@@ -12,7 +12,8 @@
             <div class="trending_img">
                 <img src="<?=$trip->imgs[0]?>" alt="<?=$trip->Name?>">
             </div>
-            <div class="flex" style="justify-content: space-between; flex-direction:column; align-items: flex-start;">
+            <div class="flex"
+                style="justify-content: space-between; flex-direction:column; align-items: flex-start; height:130px;">
                 <div class="trending_card_name">
                     <h4><?=$trip->Name?></h4>
                 </div>
