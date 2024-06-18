@@ -57,7 +57,7 @@
                     <div class="logo_container">
                         <a href="../" class="footer_logo"><img src="./img/text_logo.webp" alt="logo_img"></a>
                     </div>
-                    <p class="footer_div_dis">Trail blenders is a travel community that has been engaging in trekking
+                    <p class="footer_div_dis">LessGoTrippy is a travel community that has been engaging in trekking
                         and travelling for a long time. We are a group of experienced professionals who are passionate
                         about helping others to explore the world. </p>
                 </div>

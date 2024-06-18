@@ -10,19 +10,26 @@
 <footer id="footer" class="section flex">
     <div class="footer_div">
         <div class="logo_container">
-            <a href="./index.php" class="footer_logo"><img src="./img/logo.webp" alt="logo_img"></a>
+            <a href="./index.php" class="footer_logo flex"><img src="./img/logo.webp" alt="logo_img">LesssGoTrippy</a>
         </div>
-        <p class="footer_div_dis">Trail blenders is a travel community that has been engaging in trekking and travelling
+        <p class="footer_div_dis">LessGoTrippy is a travel community that has been engaging in trekking and travelling
             for a long time. We are a group of experienced professionals who are passionate about helping others to
             explore the world. </p>
     </div>
     <div class="footer_div">
+        <p class="footer_div_header">Navigation Links</p>
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./about-us.php">About Us</a></li>
+            <li><a href="./track.php">Routes</a></li>
+            <li><a href="./contact-us.php">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="footer_div">
         <p class="footer_div_header">Useful Links</p>
         <ul>
-            <li><a href="./index.php">Home</a></li>
-            <li><a href="./tour.php">Tours</a></li>
-            <li><a href="./track.php">Treks</a></li>
-            <li><a href="#contact_us">Contact Us</a></li>
+            <li><a href="./privacy-policy.php">Privacy Policy</a></li>
+            <li><a href="./terms-condition.php">Terms & Conditions</a></li>
         </ul>
     </div>
     <div class="footer_div">
@@ -34,8 +41,6 @@
             <a href="https://www.facebook.com/profile.php?id=100091331612532&mibextid=ZbWKwL" target="_blank"><i
                     class="fa-brands fa-facebook-square"></i></a>
         </div>
-        <a href="https://www.linkedin.com/in/varun-salat-709a0a19a/" target="_blank" class="copyright">Designed Created
-            by <span class="underline">Varun Salat <i class="fa-brands fa-linkedin-in"></i></span></a>
     </div>
 </footer>
 

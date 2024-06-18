@@ -52,7 +52,7 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <p class="client_review">
-                    We booked our Kedarkantha tour with Trail Blenders and we were very pleased with their services.
+                    We booked our Kedarkantha tour with LessGoTrippy and we were very pleased with their services.
                     Our tour guide was knowledgeable and friendly, and the itinerary they provide was made sure that
                     we got to see and do a lot in the short time we had.
                 </p>
@@ -67,8 +67,8 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <p class="client_review">
-                    I had an incredible time on my first trek with Trail Blenders. The scenery was breathtaking and
-                    the company was great. I would highly recommend Trekking with Trail Blenders to anyone looking
+                    I had an incredible time on my first trek with LessGoTrippy. The scenery was breathtaking and
+                    the company was great. I would highly recommend Trekking with LessGoTrippy to anyone looking
                     for an amazing experience.
                 </p>
                 <p class="client_name">Jayendra Rathod</p>
@@ -82,7 +82,7 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <p class="client_review">
-                    Thank you so much Trail Blenders for such an amazing experience. From the first day to the last,
+                    Thank you so much LessGoTrippy for such an amazing experience. From the first day to the last,
                     we had such an incredible time hiking through the beautiful trails.
                 </p>
                 <p class="client_name">Sakshi Prajapati</p>
@@ -110,7 +110,7 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <p class="client_review">
-                    I had a great experience with trail blenders. I would definitely recommend them to anyone in the
+                    I had a great experience with LessGoTrippy. I would definitely recommend them to anyone in the
                     market for trip and travells.
                 </p>
                 <p class="client_name">Sumit Sharma</p>
@@ -178,7 +178,7 @@
         <div class="logo_container">
             <a href="../" class="footer_logo"><img src="../img/text_logo.webp" alt="logo_img"></a>
         </div>
-        <p class="footer_div_dis">Trail blenders is a travel community that has been engaging in trekking and
+        <p class="footer_div_dis">LessGoTrippy is a travel community that has been engaging in trekking and
             travelling for a long time. We are a group of experienced professionals who are passionate about helping
             others to explore the world. </p>
     </div>

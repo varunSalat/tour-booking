@@ -8,10 +8,10 @@ require("./function/config.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Trail Blenders | Tours & Travels Company</title>
+    <title> LessGoTrippy | Tours & Travels Company</title>
     <meta name="description"
-        content="Trail blenders is a travel community that has been engaging in trekking and travelling for a long time. We are a group of experienced professionals who are passionate about helping others to explore the world.">
-    <meta name="keywords" content="Trail Blenders, Tours & Travels Company, Trekking, Hiking">
+        content="LessGoTrippy is a travel community that has been engaging in trekking and travelling for a long time. We are a group of experienced professionals who are passionate about helping others to explore the world.">
+    <meta name="keywords" content="LessGoTrippy, Tours & Travels Company, Trekking, Hiking">
     <!-- !FEVICON ICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -54,12 +54,12 @@ require("./function/config.php");
                 <i></i>
             </div>
             <div class="logo_container">
-                <a href="./" id="text_logo"><img src="./img/logo.webp" alt="logo_img"></a>
+                <a href="./" id="text_logo" class="flex"><img src="./img/logo.webp" alt="logo_img">LesssGoTrippy</a>
             </div>
             <ul class="main_nav_link_container flex">
                 <li><a href="./">Home</a></li>
-                <li><a href="./tour.php">Tours</a></li>
-                <li><a href="./track.php">Treks</a></li>
+                <li><a href="./about-us.php">About Us</a></li>
+                <li><a href="./track.php">Routes</a></li>
                 <li><a href="./contact-us.php">Contact Us</a></li>
             </ul>
             <div class="three_dot_container">

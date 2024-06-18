@@ -6,10 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trail Blenders | <?=str_replace('_', ' ',  $_GET["trip"])?></title>
+    <title>LessGoTrippy | <?=str_replace('_', ' ',  $_GET["trip"])?></title>
     <meta name="description"
         content="Trailblenders is a renowned travel community that has been at the forefront of trekking and explorations for many years. ">
-    <meta name="keywords" content="Trail Blenders, Tours & Travels Company, Trekking, Hiking">
+    <meta name="keywords" content="LessGoTrippy, Tours & Travels Company, Trekking, Hiking">
     <!-- !FEVICOND ICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
