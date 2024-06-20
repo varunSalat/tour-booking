@@ -1785,6 +1785,20 @@ ul li {
   .photo_gallery_img_container {
     margin: 1em 0;
   }
+
+  .routes_navbar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .route_nav_btn {
+    margin: 1em auto;
+    border: none;
+  }
+  .routes_main_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pp_section {
+    padding-top: 6em;
+  }
 }
 
 @media screen and (max-width: 350px) {
