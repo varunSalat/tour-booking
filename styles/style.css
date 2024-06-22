@@ -1034,6 +1034,7 @@ ul li {
 
 .whats_app_fixed_btn {
   position: fixed;
+  z-index: 4;
   bottom: 1em;
   right: 1em;
   background-color: var(--primary_color);
@@ -1808,5 +1809,140 @@ ul li {
 
   .footer_logo img {
     width: 200px !important;
+  }
+}
+
+/*--------------------- !ABOUT US PAGE STYLES ------------------*/
+#about_us_section {
+  gap: 2em;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.au-header h3 {
+  font-size: var(--primary_header);
+}
+
+.about_us_left_container,
+.about_us_right_container {
+  width: 50%;
+}
+.about_us_left_container {
+  display: flex;
+  justify-content: center;
+}
+.about_us_left_container figure {
+  height: 500px;
+  max-width: 500px;
+  width: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.about_us_dis {
+  margin-top: 2em;
+}
+
+.about_us_dis p {
+  font-size: var(--body_text);
+  margin: 1em 0;
+  color: var(--secondery_black_color);
+}
+
+/* How we work section */
+
+#how-we-work-section {
+  background-color: rgb(22, 22, 50);
+}
+.how_we_work_header {
+  text-align: center;
+}
+.how_we_work_header h3 {
+  font-size: var(--tertiary_header);
+}
+.section-header-5 {
+  color: rgb(107, 171, 255);
+}
+
+.how_we_work_header h2 {
+  font-size: var(--secondery_header);
+  color: var(--white_color);
+  margin-top: 0.5em;
+}
+
+.how_we_work_card_container {
+  margin-top: 4em;
+  align-items: center;
+  justify-content: space-between;
+}
+.how_we_work_card {
+  width: min(300px, 100%);
+  text-align: center;
+}
+.how_we_work_icon_container {
+  background-color: #abfad7;
+  margin: 0 auto;
+  height: 70px;
+  width: 70px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.how_we_work_card h4 {
+  font-size: var(--tertiary_header);
+  color: #fff;
+  font-weight: normal;
+  margin: 0.5em 0;
+}
+.how_we_work_card p {
+  color: #c3c3c3;
+}
+.arrow_container i {
+  font-size: calc(var(--primary_header) * 1.4);
+  color: #fff;
+}
+.how_we_work_icon_container i {
+  font-size: var(--tertiary_header);
+}
+#second_work_card .how_we_work_icon_container {
+  background-color: #f5bb9c;
+}
+#third_work_card .how_we_work_icon_container {
+  background-color: #badaf4;
+}
+
+/* !ABOUT US RESPONSIVE DESIGN */
+@media screen and (max-width: 900px) {
+  #about_us_section {
+    flex-direction: column;
+  }
+  .about_us_left_container,
+  .about_us_right_container {
+    width: 100%;
+  }
+  .about_us_left_container figure {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .how_we_work_card_container {
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 3em;
+  }
+  .arrow_container {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
   }
 }

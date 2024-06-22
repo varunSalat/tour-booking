@@ -4,8 +4,7 @@ require("./function/function.php");
 view("header","general");
 view("hero_section","about-us");
 view("about_us_section","about-us");
-view("trending_section","general");
-view("go_to_track_section","tour");
+view("how_we_work_section","about-us");
 view("testimonial","general");
 view("why_choose_us","general");
 
