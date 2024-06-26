@@ -45,12 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section" id="map_section">
-                <iframe title="map-location"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7332.862353871323!2d72.61476122681357!3d23.227391748647506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2bd93957a3bb%3A0x47f3b3c4fdeaa80c!2sBhoomi%20Park%20Society!5e0!3m2!1sen!2sin!4v1675964171402!5m2!1sen!2sin"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+
             <!-- !FOOTER -->
             <footer id="footer" class="section flex">
                 <div class="footer_div">

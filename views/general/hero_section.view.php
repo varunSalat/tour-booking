@@ -4,7 +4,7 @@
     <div class="hero_dis">
         <h1 class="main_header">Just Arrived?</h1>
         <p class="secondery_header">Need Affordable and Reliable Transport?</p>
-        <a class="btn hero_btn">Book a Ride</a>
+        <a href="./routes.php" class="btn hero_btn">Book a Ride</a>
     </div>
 </section>
 

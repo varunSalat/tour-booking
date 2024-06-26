@@ -30,23 +30,6 @@ require("./function/config.php");
         <img src="./img/preloader.gif" alt="prealoder">
     </div>
     <header id="header">
-        <nav id="secondery_nav" class="flex">
-            <div class="left_header flex">
-                <a href="https://goo.gl/maps/R9GEopZdDgiwMsua6" target="_blank" class="flex"><i
-                        class="fa-solid fa-location-dot"></i>B-59, Bhumipark, Vavol, Gandhinagar, Gujarat-382016</a>
-                <div class="phone_container">
-                    <a href="tel:+919624860420"><i class="fa-solid fa-phone"></i>+91 962 486 0420</a>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="right_container flex">
-                <a href="https://instagram.com/trailblenders?igshid=YmMyMTA2M2Y=" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/+919624860420" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100091331612532&mibextid=ZbWKwL" target="_blank"><i
-                        class="fa-brands fa-facebook-square"></i></a>
-            </div>
-        </nav>
         <nav id="main_nav" class="flex">
             <div class="burger_container">
                 <i></i>
@@ -59,7 +42,7 @@ require("./function/config.php");
             <ul class="main_nav_link_container flex">
                 <li><a href="./">Home</a></li>
                 <li><a href="./about-us.php">About Us</a></li>
-                <li><a href="./track.php">Routes</a></li>
+                <li><a href="./routes.php">Routes</a></li>
                 <li><a href="./contact-us.php">Contact Us</a></li>
             </ul>
             <div class="three_dot_container">
