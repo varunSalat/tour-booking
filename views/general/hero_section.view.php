@@ -41,7 +41,7 @@
     <div class="packge_container flex">
         <div class="packge_card">
             <div class="packege_dis">
-                <h2>On-Demand Services</h2>
+                <h2>Explore routes</h2>
                 <p>Immediate service, booked through website or phone booking.
                 </p>
                 <a href="./tour.php" class="btn explore_packege_btn">Explore Packages</a>
@@ -49,7 +49,7 @@
         </div>
         <div class="packge_card">
             <div class="packege_dis">
-                <h2>Pre-Booked Services</h2>
+                <h2>Top Destinations</h2>
                 <p>Reserved in advance, often for longer durations or specific time frames.</p>
                 <a href="./track.php" class="btn explore_packege_btn">Explore Packages</a>
             </div>
