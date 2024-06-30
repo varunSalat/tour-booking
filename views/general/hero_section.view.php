@@ -14,31 +14,19 @@
         <h4 class="trending_offer_text">Trending Offers</h4>
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                <img src="./img/hero_img/offers/1.jpg" />
             </div>
             <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                <img src="./img/hero_img/offers/2.jpg" />
             </div>
             <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                <img src="./img/hero_img/offers/3.jpg" />
             </div>
             <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                <img src="./img/hero_img/offers/4.jpg" />
             </div>
             <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-            </div>
-            <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-            </div>
-            <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-            </div>
-            <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-            </div>
-            <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                <img src="./img/hero_img/offers/5.jpg" />
             </div>
         </div>
         <div class="swiper-pagination"></div>
