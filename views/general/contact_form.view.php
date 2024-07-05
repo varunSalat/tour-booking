@@ -23,8 +23,10 @@
                     required></textarea>
                 <p class="generalFromError">This is an error</p>
             </div>
-            <button id="form_submit_btn" class="flex btn" type="submit">Send Request<i
-                    class="fa-solid fa-angles-right"></i></button>
+            <button class="g-recaptcha flex btn" data-sitekey="6LewEgkqAAAAABeNn2G8izG2vQZtaPcxXMOoyeG8"
+                data-callback='onSubmit' data-action='submit' id="form_submit_btn" type="submit">Send Request<i
+                    class="fa-solid fa-angles-right"></i>
+            </button>
         </form>
         <div class="quick_contacts_container">
             <div class="quick_contact_card flex">
@@ -44,3 +46,5 @@
         </div>
     </div>
 </div>
+
+<script src="./scripts/contact-us.js"></script>

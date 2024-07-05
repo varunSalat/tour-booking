@@ -27,9 +27,12 @@ require("./function/config.php");
 
 <body>
     <div class="preloader_container">
-        <figure>
-            <img src="./img/preloader.png" alt="prealoder">
-        </figure>
+        <div class="preloader_inner_container">
+            <figure>
+                <img src="./img/logo-with-bg.jpg" alt="prealoder">
+            </figure>
+            <p>loading...</p>
+        </div>
     </div>
     <header id="header">
         <nav id="main_nav" class="flex">

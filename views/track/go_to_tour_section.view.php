@@ -5,6 +5,6 @@
     </div>
     <div class="why_choose_us_container why_choose_us_travel_container  flex">
         <p>Visit our Tours and Travels packages</p>
-        <a href="./tour.php" class="btn hiking_btn">Explore More</a>
+        <a href="./routes.php" class="btn hiking_btn">Explore More</a>
     </div>
 </section>

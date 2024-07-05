@@ -10,14 +10,14 @@
 <footer id="footer" class="section flex">
     <div class="footer_div">
         <div class="logo_container">
-            <a href="./index.php" class="footer_logo flex"><img src="./img/logo.webp" alt="logo_img">LesssGoTrippy</a>
+            <a href="../" class="footer_logo flex"><img src="./img/logo.webp" alt="logo_img">LessGoTrippy</a>
         </div>
-        <p class="footer_div_dis">LessGoTrippy is a travel community that has been engaging in trekking and travelling
-            for a long time. We are a group of experienced professionals who are passionate about helping others to
-            explore the world. </p>
+        <p class="footer_div_dis">LessGoTrippy is a travel community that has been engaging in trekking
+            and travelling for a long time. We are a group of experienced professionals who are passionate
+            about helping others to explore the world. </p>
     </div>
     <div class="footer_div">
-        <p class="footer_div_header">Navigation Links</p>
+        <p class="footer_div_header">Useful Links</p>
         <ul>
             <li><a href="./">Home</a></li>
             <li><a href="./about-us.php">About Us</a></li>
@@ -26,20 +26,11 @@
         </ul>
     </div>
     <div class="footer_div">
-        <p class="footer_div_header">Useful Links</p>
-        <ul>
-            <li><a href="./privacy-policy.php">Privacy Policy</a></li>
-            <li><a href="./terms-condition.php">Terms & Conditions</a></li>
-        </ul>
-    </div>
-    <div class="footer_div">
-        <p class="footer_div_header">Social Links</p>
+        <p class="footer_div_header">Our Quick Contacts</p>
         <div class="quick_contact_form flex">
-            <a href="https://instagram.com/trailblenders?igshid=YmMyMTA2M2Y=" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-            <a href="https://wa.me/+919624860420" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100091331612532&mibextid=ZbWKwL" target="_blank"><i
-                    class="fa-brands fa-facebook-square"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/+917009479881" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </div>
 </footer>
@@ -52,6 +43,14 @@
 
 <!-- !LOCAL JS -->
 <script src="./scripts/main.js?v=<?=$version?>"></script>
+
+<!-- Captcha script -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+function onSubmit(token) {
+    document.getElementById("form").submit();
+}
+</script>
 </body>
 
 

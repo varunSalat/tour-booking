@@ -44,7 +44,7 @@
                 <h2>Explore routes</h2>
                 <p>Immediate service, booked through website or phone booking.
                 </p>
-                <a href="./tour.php" class="btn explore_packege_btn">Explore Packages</a>
+                <a href="./routes.php" class="btn explore_packege_btn">Explore Packages</a>
             </div>
         </div>
         <div class="packge_card">

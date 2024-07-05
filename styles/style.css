@@ -144,8 +144,20 @@ ul li {
   display: grid;
   place-items: center;
 }
+
+.preloader_inner_container p {
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: var(--tertiary_header);
+}
 .preloader_container figure {
-  width: 300px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .preloader_container img {
@@ -243,6 +255,7 @@ ul li {
 
 .logo_container {
   padding: 0.5em 0;
+  color: var(--white_color);
 }
 
 .logo_container a img {
@@ -527,18 +540,18 @@ ul li {
 }
 
 .packge_card:first-child {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/hero_img/right.svg) center/cover no-repeat;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/hero_img/left.png) center/cover no-repeat;
 }
 
 .packge_card:last-child {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/hero_img/left.svg) center/cover no-repeat;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/hero_img/right.jpg) center/cover no-repeat;
 }
 
-.packge_card:hover {
+/* .packge_card:hover {
   width: 70%;
-}
+} */
 
 .packege_dis {
   max-width: 450px;

@@ -32,8 +32,7 @@
                 <p class="client_review">
                     I highly recommend securing your bus tickets through LesssGoTrippy due to their exceptional customer
                     support. The team at LesssGoTrippy is always available to assist with any questions or concerns,
-                    making the booking process smooth and hassle-free. Their attention to detail and dedication to
-                    providing top-notch service sets them apart from other ticketing platforms.
+                    making the booking process smooth and hassle-free.
                 </p>
                 <p class="client_name">Drashya</p>
             </div>
@@ -48,8 +47,7 @@
                 <p class="client_review">
                     Thanks to LesssGoTrippy, I was able to book a last-minute bus ticket, which was a life-saver since
                     I'd forgotten to reserve earlier. The website process was quick and easy, with exceptional customer
-                    service. My travel plans were sorted in minutes, and I can relax now. I'll definitely use their
-                    services again and highly recommend them for last-minute travel needs.
+                    service. My travel plans were sorted in minutes, and I can relax now.
                 </p>
                 <p class="client_name">Nick </p>
             </div>

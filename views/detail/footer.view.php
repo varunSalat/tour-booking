@@ -50,7 +50,8 @@
             <footer id="footer" class="section flex">
                 <div class="footer_div">
                     <div class="logo_container">
-                        <a href="../" class="footer_logo"><img src="./img/text_logo.webp" alt="logo_img"></a>
+                        <a href="../" class="footer_logo"><img src="./img/text_logo.webp"
+                                alt="logo_img"></a>LessGoTrippy
                     </div>
                     <p class="footer_div_dis">LessGoTrippy is a travel community that has been engaging in trekking
                         and travelling for a long time. We are a group of experienced professionals who are passionate
@@ -59,22 +60,19 @@
                 <div class="footer_div">
                     <p class="footer_div_header">Useful Links</p>
                     <ul>
-                        <li><a href=".">Home</a></li>
-                        <li><a href="./tour.php">Tours</a></li>
-                        <li><a href="./track.php">Treks</a></li>
-                        <li><a href="#contact_us">Contact Us</a></li>
+                        <li><a href="./">Home</a></li>
+                        <li><a href="./about-us.php">About Us</a></li>
+                        <li><a href="./track.php">Routes</a></li>
+                        <li><a href="./contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer_div">
                     <p class="footer_div_header">Our Quick Contacts</p>
                     <div class="quick_contact_form flex">
                         <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://wa.me/+917009479881" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="https://www.linkedin.com/in/varun-salat-709a0a19a/" target="_blank"
-                        class="copyright">Designed Created by <span class="underline">Varun Salat <i
-                                class="fa-brands fa-linkedin-in"></i></span></a>
                 </div>
             </footer>
 
