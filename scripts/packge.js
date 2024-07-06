@@ -30,7 +30,7 @@ threeDotContainer.addEventListener("click", () => {
 window.addEventListener("scroll", () => {
   burgerContainer.classList.remove("active");
   document.querySelector(".main_nav_link_container").classList.remove("active");
-  document.querySelector("#secondery_nav").classList.remove("active");
+  // document.querySelector("#secondery_nav").classList.remove("active");
 });
 
 // !SECOND NAV COLOR CHANGE & HIDE ON SCROLL
@@ -48,10 +48,10 @@ const secondNav = document.querySelector("#secondery_nav"),
 window.addEventListener("scroll", () => {
   let currentScroll = window.pageYOffset;
   if (currentScroll > lastScroll) {
-    secondNav.classList.add("hide");
+    // secondNav.classList.add("hide");
     mainNav.classList.add("active");
   } else {
-    secondNav.classList.remove("hide");
+    // secondNav.classList.remove("hide");
     mainNav.classList.remove("active");
   }
 });

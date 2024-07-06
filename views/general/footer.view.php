@@ -28,7 +28,8 @@
     <div class="footer_div">
         <p class="footer_div_header">Our Quick Contacts</p>
         <div class="quick_contact_form flex">
-            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/lesssgotrippy/?igsh=djFxMWtvZ3Rnc2Zl" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
             <a href="https://wa.me/+917009479881" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>

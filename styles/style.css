@@ -1297,7 +1297,7 @@ ul li {
 .why_choose_us_tour_container,
 .why_choose_us_travel_container {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/hero_img/1.webp) center/cover no-repeat;
+    url(../img/hero_img/1.webp) no-repeat;
   flex-direction: column;
   background-attachment: fixed;
 }
