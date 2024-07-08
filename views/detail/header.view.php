@@ -22,6 +22,8 @@
     <!-- !LOCAL CSS -->
     <link rel="stylesheet" href="./styles/style.css?v=<?=$version?>">
     <link rel="stylesheet" href="./styles/packge.css?v=<?=$version?>">
+    <!-- Google recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q"></script>
 </head>
 
 <body>
@@ -29,8 +31,8 @@
         <div class="preloader_inner_container">
             <figure>
                 <img src="./img/logo-with-bg.jpg" alt="prealoder">
+                <img src="./img/loader.gif" alt="prealoder" id="line-loader">
             </figure>
-            <p>loading...</p>
         </div>
     </div>
     <header id="header">

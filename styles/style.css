@@ -143,12 +143,18 @@ ul li {
   height: 100vh;
   display: grid;
   place-items: center;
+  background-color: #59bc69;
 }
-
-.preloader_inner_container p {
+#line-loader {
+  transform: translateY(-70px) translateX(-10px);
+  -webkit-transform: translateY(-70px) translateX(-10px);
+  -moz-transform: translateY(-70px) translateX(-10px);
+  -ms-transform: translateY(-70px) translateX(-10px);
+  -o-transform: translateY(-70px) translateX(-10px);
+}
+.preloader_inner_container {
   text-align: center;
-  margin-top: 0.5em;
-  font-size: var(--tertiary_header);
+  margin-top: 6em;
 }
 .preloader_container figure {
   width: 200px;
@@ -607,7 +613,7 @@ ul li {
 }
 
 .trending_card {
-  height: 380px;
+  height: 350px;
   width: min(350px, 100%);
   padding: 0.6em;
   margin: 2em;
@@ -644,7 +650,12 @@ ul li {
   font-size: var(--body_text);
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.tc_des {
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100px;
+}
 .treding_duration_container {
   font-size: var(--label_text);
 }

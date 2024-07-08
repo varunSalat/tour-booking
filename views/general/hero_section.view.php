@@ -51,7 +51,7 @@
             <div class="packege_dis">
                 <h2>Top Destinations</h2>
                 <p>Reserved in advance, often for longer durations or specific time frames.</p>
-                <a href="./track.php" class="btn explore_packege_btn">Explore Packages</a>
+                <a href="./routes.php" class="btn explore_packege_btn">Explore Packages</a>
             </div>
         </div>
 

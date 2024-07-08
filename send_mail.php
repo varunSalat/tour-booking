@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         //Content
         $mail->isHTML(true);                                        //Set email format to HTML
-        $mail->Subject = 'Request from Trail Bleners';
+        $mail->Subject = 'Request from LesssGoTrippy';
         $mail->Body    = "Name: $name<br><br>Phone Number: $phone<br><br>Email Address: $email<br><br>Description:<br>$message";
 
         $mail->send();

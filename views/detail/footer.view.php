@@ -1,7 +1,7 @@
             <?php require("./function/config.php");?>
             <!-- !CONTACT US SECTION -->
             <div class="whats_app_fixed_btn" id="whatsappBtn">
-                <a href="https://wa.me/+919624860420" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://wa.me/+917009479881" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
             <div id="contact_us" class="section">
                 <div class="section_header">
@@ -33,17 +33,16 @@
                     <div class="quick_contacts_container">
                         <div class="quick_contact_card flex">
                             <i class="fa-brands fa-whatsapp"></i>
-                            <a href="https://wa.me/+919624860420" target="_blank">+91 962 486 0420</a>
+                            <a href="https://wa.me/+917009479881" target="_blank">+91 700 947 9881</a>
                         </div>
                         <div class="quick_contact_card flex">
                             <i class="fa-solid fa-envelope"></i>
-                            <a href="mailto:we.trailblenders@gmail.com" class="flex mail-text">Send Email <i
+                            <a href="mailto:info.lesssgotrippy@gmail.com" class="flex mail-text">Send Email <i
                                     class="fa-solid fa-arrow-right"></i></a>
                         </div>
                         <div class="quick_contact_card flex">
                             <i class="fa-solid fa-location-dot"></i>
-                            <a href="https://goo.gl/maps/R9GEopZdDgiwMsua6" target="_blank">B-59, Bhumipark, Vavol,
-                                Gandhinagar, Gujarat-382016</a>
+                            <a target="_blank">27/1, New Rishi nagar, Ludhiyana, Punjab, 141007</a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +64,7 @@
                     <ul>
                         <li><a href="./">Home</a></li>
                         <li><a href="./about-us.php">About Us</a></li>
-                        <li><a href="./track.php">Routes</a></li>
+                        <li><a href="./routes.php">Routes</a></li>
                         <li><a href="./contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>

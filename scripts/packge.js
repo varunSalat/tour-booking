@@ -119,9 +119,9 @@ function sendmail() {
     Username: "filesdoom@gmail.com",
     Password: "3096937781459ADB5C5671C6A100923C8B68",
     port: 2525,
-    To: "we.trailblenders@gmail.com",
+    To: "varunsalat5677@gmail.com",
     From: "filesdoom@gmail.com",
-    Subject: "Request from Trail Bleners",
+    Subject: "Request from LessGoTrippy",
     Body: Body,
   }).then((message) => {
     if (message == "OK") {
@@ -269,7 +269,7 @@ function Packgesendmail() {
     port: 2525,
     To: "varunsalat5677@gmail.com",
     From: "filesdoom@gmail.com",
-    Subject: "Packge Booking Form from Trail Bleners",
+    Subject: "Packge Booking Form from LessGoTrippy",
     Body: Body,
   }).then((message) => {
     if (message == "OK") {

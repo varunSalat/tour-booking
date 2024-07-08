@@ -2,7 +2,7 @@
 <!-- !PACKEGE SECTION -->
 <section id="packges_section" class="section">
     <div class="section_header">
-        <h3>Trekking & Hiking Packages</h3>
+        <h3>Routes Packages</h3>
     </div>
     <div class="packege_container">
         <?php foreach($data as $trip):?>
