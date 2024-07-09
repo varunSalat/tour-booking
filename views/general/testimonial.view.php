@@ -6,7 +6,7 @@
     <!-- Swiper -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide testi_card">
 
                 <div class="star_container flex">
                     <i class="fa-solid fa-star"></i>
@@ -21,7 +21,7 @@
                 </p>
                 <p class="client_name">Nidhi </p>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide testi_card">
 
                 <div class="star_container flex">
                     <i class="fa-solid fa-star"></i>
@@ -36,7 +36,7 @@
                 </p>
                 <p class="client_name">Drashya</p>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide testi_card">
 
                 <div class="star_container flex">
                     <i class="fa-solid fa-star"></i>
@@ -51,7 +51,7 @@
                 </p>
                 <p class="client_name">Nick </p>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide testi_card">
                 <div class="star_container flex">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -66,7 +66,7 @@
                 </p>
                 <p class="client_name">Dhyani Mehta</p>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide testi_card">
 
                 <div class="star_container flex">
                     <i class="fa-solid fa-star"></i>

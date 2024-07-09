@@ -1,3 +1,35 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $secretKey = '6LfgKAsqAAAAAN4j9yXpfOrgJTaSa09stn7kN5Aw';
+    $token = $_POST['g-recaptcha-response'];
+    $remoteIp = $_SERVER['REMOTE_ADDR'];
+    echo 'Form submitted !';
+    
+    $recaptchaUrl = 'https://www.google.com/recaptcha/api/siteverify';
+    $response = file_get_contents($recaptchaUrl . '?secret=' . $secretKey . '&response=' . $token . '&remoteip=' . $remoteIp);
+    $responseKeys = json_decode($response, true);
+
+    if ($responseKeys["success"]) {
+        // reCAPTCHA was successfully validated
+        $name = htmlspecialchars($_POST['name']);
+        $email = htmlspecialchars($_POST['email']);
+        $phone = htmlspecialchars($_POST['phone']);
+        $enquiry = htmlspecialchars($_POST['enquiry']);
+        
+        // Process your form data here, e.g., send an email, save to database, etc.
+
+        echo "Form submitted successfully!<br>";
+        echo "Name: " . $name . "<br>";
+        echo "Email: " . $email . "<br>";
+        echo "Phone: " . $phone . "<br>";
+        echo "Enquiry: " . $enquiry . "<br>";
+    } else {
+        // reCAPTCHA validation failed
+        echo 'reCAPTCHA verification failed. Please try again.';
+    }
+}
+?>
+
 <!-- !CONTACT US -->
 <div id="contact_us" class="section">
     <div class="section_header">
@@ -5,27 +37,28 @@
     </div>
 
     <div class="contact_us_container flex">
-        <form onsubmit="return onClick(e)" id="form">
+        <form id="form" method="POST" action="#" onsubmit="return onSubmit(event)">
             <div class="input_container">
-                <input type="text" id="general_form_name" placeholder="Your Name*" required>
+                <input type="text" name="name" id="general_form_name" placeholder="Your Name*" required>
                 <p class="generalFromError">This is an error</p>
             </div>
             <div class="input_container">
-                <input type="email" id="generalFormEmail" placeholder="Email Address">
+                <input type="email" name="email" id="generalFormEmail" placeholder="Email Address" required>
                 <p class="generalFromError">This is an error</p>
             </div>
             <div class="input_container">
-                <input type="text" id="generalFormPhone" placeholder="Phone Number*" required>
+                <input type="text" name="phone" id="generalFormPhone" placeholder="Phone Number*" required>
                 <p class="generalFromError">This is an error</p>
             </div>
             <div class="input_container">
-                <textarea name="text" id="generalFormtext" placeholder="Your Enquiry*" cols="30" rows="10"
+                <textarea name="enquiry" id="generalFormtext" placeholder="Your Enquiry*" cols="30" rows="10"
                     required></textarea>
                 <p class="generalFromError">This is an error</p>
             </div>
-            <button class="g-recaptcha flex btn" data-sitekey="6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q"
-                data-callback='onSubmit' data-action='submit' id="form_submit_btn" type="submit">Send Request<i
-                    class="fa-solid fa-angles-right"></i>
+            <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+            <button type="submit" class="g-recaptcha flex btn" data-sitekey="6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q"
+                data-callback='onSubmit' data-action='submit' id="form_submit_btn">
+                Send Request<i class="fa-solid fa-angles-right"></i>
             </button>
         </form>
         <div class="quick_contacts_container">
@@ -46,16 +79,24 @@
     </div>
 </div>
 
+
+
+<script src="./scripts/contact-us.js"></script>
 <script>
-function onClick(e) {
-    e.preventDefault();
-    console.log("runned");
-    grecaptcha.enterprise.ready(async () => {
-        const token = await grecaptcha.enterprise.execute('6Lca3QoqAAAAAO9RWJV7BkG5u3AQbK9ayCcv5eeN', {
-            action: 'LOGIN'
+function onSubmit(event) {
+    // const form = document.getElementById("form");
+    // form.preventDefault();
+    event.preventDefault()
+    console.log(event);
+    console.log(true);
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q', {
+            action: 'submit'
+        }).then(function(token) {
+            document.getElementById('g-recaptcha-response').value = token;
+            document.getElementById('form').submit();
+            validation()
         });
     });
 }
 </script>
-
-<script src="./scripts/contact-us.js"></script>

@@ -1,5 +1,5 @@
 info.lesssgotrippy@gmail.com
-LessGoTrippy
+LesssGoTrippy
 
 Use this site key in the HTML code your site serves to users.
 6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q

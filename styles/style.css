@@ -62,11 +62,11 @@ body {
 @media screen and (max-width: 600px) {
   body {
     /* FONT SIZES */
-    --primary_header: 1.5rem;
-    --secondery_header: 1.3rem;
+    --primary_header: 1.8rem;
+    --secondery_header: 1.5rem;
     --tertiary_header: 1.2rem;
-    --body_text: 1rem;
-    --label_text: 0.8rem;
+    --body_text: 1.2rem;
+    --label_text: 1rem;
     --four-em-margin: 3em;
   }
 }
@@ -861,6 +861,7 @@ ul li {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  object-fit: unset;
 }
 .client_name {
   position: absolute;
@@ -1459,7 +1460,6 @@ ul li {
   }
 
   #main_nav {
-    padding: 0 3%;
     height: 60px;
   }
 
@@ -1728,6 +1728,9 @@ ul li {
   .right_container a:last-child {
     margin-left: 0.5;
   }
+  .testi_card {
+    height: 380px;
+  }
 
   /* !<!-- !PACKEGE SECTION --> */
   #packges_section {
@@ -1771,7 +1774,6 @@ ul li {
 
   .swiper-slide {
     margin: 0 0.5em;
-    padding: 1em 0.5em;
   }
 
   .star_container {

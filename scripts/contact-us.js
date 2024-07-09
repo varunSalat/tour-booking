@@ -4,12 +4,12 @@ function validation() {
     generalFormtext = document.getElementById("generalFormtext").value,
     generalErrors = document.querySelectorAll(".generalFromError");
 
-  grecaptcha.enterprise.ready(async () => {
-    const token = await grecaptcha.enterprise.execute(
-      "6Lca3QoqAAAAAO9RWJV7BkG5u3AQbK9ayCcv5eeN",
-      { action: "LOGIN" }
-    );
-  });
+  // grecaptcha.enterprise.ready(async () => {
+  //   const token = await grecaptcha.enterprise.execute(
+  //     "6Lca3QoqAAAAAO9RWJV7BkG5u3AQbK9ayCcv5eeN",
+  //     { action: "LOGIN" }
+  //   );
+  // });
 
   console.log("This is the test ");
 
