@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 
     <div class="contact_us_container flex">
-        <form id="form" method="POST" action="#" onsubmit="return onSubmit(event)">
+        <form id="form" method="POST" action="./mail.php">
             <div class="input_container">
                 <input type="text" name="name" id="general_form_name" placeholder="Your Name*" required>
                 <p class="generalFromError">This is an error</p>
@@ -55,9 +55,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     required></textarea>
                 <p class="generalFromError">This is an error</p>
             </div>
-            <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
-            <button type="submit" class="g-recaptcha flex btn" data-sitekey="6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q"
-                data-callback='onSubmit' data-action='submit' id="form_submit_btn">
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAAAeu2ys9UmdVa9Id"></div>
+            <button type="submit" id="form_submit_btn" class="g-recaptcha flex btn">
                 Send Request<i class="fa-solid fa-angles-right"></i>
             </button>
         </form>

@@ -956,6 +956,9 @@ ul li {
   -o-border-radius: 10px;
 }
 
+#form_submit_btn {
+  margin-top: 2em;
+}
 #form_submit_btn i,
 #packge_form_submit_btn i {
   margin-left: 0.5em;

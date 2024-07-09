@@ -24,9 +24,7 @@ require("./function/config.php");
     <!-- !LOCAL CSS -->
     <link rel="stylesheet" href="./styles/style.css?v=<?=$version?>">
     <!-- Google recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q"></script>
-    </script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
 </head>
 
 <body>
