@@ -1,18 +1,13 @@
 [
   {
-    "Name": "Goa (4D/3N)",
-    "Starting_Price": 12500,
-    "days": 4,
+    "Name": "Delhi To Manali Bus",
+    "Starting_Price": 1200,
+    "hours": 5,
+    "seats": 30,
     "tour_type": "Adventure",
-    "categories": ["trending", "tour"],
+    "categories": ["trending", "trek"],
     "imgs": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0w2BZsDaaaUK4R4tRIfc96RtjUvErHIrKUA&s",
-      "https://res.cloudinary.com/dzcskxoeu/image/upload/v1679599527/kk/pexels-thiago-japyassu-929032_c4eimi.jpg",
-      "https://res.cloudinary.com/dzcskxoeu/image/upload/v1679599583/kk/pexels-anand-dandekar-1532771_mi6kgu.jpg",
-      "https://res.cloudinary.com/dzcskxoeu/image/upload/v1679599931/kk/goa-tropical-beach-india-45449944_mqwp05.jpg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnefBn-v4pRYmz_JamJwMVeHU5QwLzo4tjCjv_VIifJRj2sMEHBPOI2Qaqrg6g0t6S5BY&usqp=CAU",
-      "https://media.istockphoto.com/id/157579910/photo/the-beach.jpg?b=1&s=170667a&w=0&k=20&c=yPaOBmlp750azFx3mloMk_GjXbeQv2QLUDWyye1vdis=",
-      "https://images.pexels.com/photos/14603734/pexels-photo-14603734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyK6DjBGb2x62-8vPhc9g3-wtX_NujN0psc69A6WgzoH6vacC2M9LpxHzyTmunBEA4rdA&usqp=CAU"
     ],
     "quickFacts": [""],
     "about_Tour": [
@@ -44,16 +39,13 @@
     ]
   },
   {
-    "Name": "Ladakh Expedition (7D/6N)",
+    "Name": "Rishikesh To Delhi Bus",
     "Starting_Price": "19999",
-    "days": "7",
+    "hours": "7",
+    "seats": 30,
     "categories": ["trending", "tour"],
     "imgs": [
-      "https://images.pexels.com/photos/14477905/pexels-photo-14477905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/6650419/pexels-photo-6650419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/5014886/pexels-photo-5014886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/10588348/pexels-photo-10588348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/13905847/pexels-photo-13905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "https://deih43ym53wif.cloudfront.net/Rajpath-delhi-shutterstock_1195751923.jpg_7647e1aad2.jpg"
     ],
     "quickFacts": [""],
     "itenery": [
@@ -96,16 +88,13 @@
     ]
   },
   {
-    "Name": "Ladakh Expedition (10D/9N)",
-    "Starting_Price": "24999",
-    "days": "10",
+    "Name": "Delhi To Mandi Bus",
+    "Starting_Price": "6000",
+    "hours": "10",
+    "seats": 15,
     "categories": ["trending", "tour"],
     "imgs": [
-      "https://images.pexels.com/photos/5015007/pexels-photo-5015007.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      "https://images.pexels.com/photos/5014886/pexels-photo-5014886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/5014918/pexels-photo-5014918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/5014921/pexels-photo-5014921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/12064459/pexels-photo-12064459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2024/04/Must-See-Places-in-Mandi.jpg?fit=1200%2C800&ssl=1"
     ],
     "quickFacts": [""],
     "itenery": [
@@ -206,17 +195,13 @@
     ]
   },
   {
-    "Name": "Winter Spiti Expedition",
-    "Starting_Price": "17500",
-    "days": "7",
+    "Name": "Delhi To Bhuntar Bus",
+    "Starting_Price": "1500",
+    "hours": "4",
+    "seats": 15,
     "categories": ["trending", "tour"],
     "imgs": [
-      "https://images.pexels.com/photos/5238634/pexels-photo-5238634.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      "https://images.pexels.com/photos/5324310/pexels-photo-5324310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/4393599/pexels-photo-4393599.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      "https://images.pexels.com/photos/13582002/pexels-photo-13582002.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      "https://images.pexels.com/photos/5324321/pexels-photo-5324321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/13302524/pexels-photo-13302524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS_RO8vio0EPr04HDPXxV2e6fwR6VRf8MGYw&s"
     ],
     "quickFacts": [""],
     "itenery": [

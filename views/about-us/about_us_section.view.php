@@ -1,7 +1,7 @@
 <section class="section flex" id="about_us_section">
     <div class="about_us_left_container">
         <figure class="">
-            <img src="./img/about_us/about-us-left-img.jpg" alt="about-us-img">
+            <img loading="lazy" src="./img/about_us/about-us-left-img.jpg" alt="about-us-img">
         </figure>
     </div>
     <div class="about_us_right_container">

@@ -10,7 +10,7 @@
         <?php if($category=="trending"):?>
         <div class="trending_card">
             <div class="trending_img">
-                <img src="<?=$trip->imgs[0]?>" alt="<?=$trip->Name?>">
+                <img loading="lazy" src="<?=$trip->imgs[0]?>" alt="<?=$trip->Name?>">
             </div>
             <div class="flex tc_des">
                 <div class="trending_card_name">
@@ -21,10 +21,11 @@
                         <p class="trending_price_container">Starting with: ₹<span
                                 class="trending_price"><?=$trip->Starting_Price?></span> </p>
                         <p class="treding_duration_container flex"><i class="fa-regular fa-clock"></i> <span
-                                class="trending_duration"><?=$trip->days?>D/<?=$trip->days-1?>N</span></p>
+                                class="trending_duration"><?=$trip->hours?> hour</span> <span class="dot"></span> <span
+                                class="trending_duration"><?=$trip->seats?> Seats</span></p>
                     </div>
                     <div class="trending_inner_dis">
-                        <a href="./detail.php?trip=<?=str_replace(' ', '_', $trip->Name)?>"
+                        <a href="./contact-us.php?trip=<?=str_replace(' ', '_', $trip->Name)?>"
                             class="trending_btn btn">Send
                             Enquiry</a>
                     </div>
