@@ -1,17 +1,10 @@
-function validation() {
+function validation(event) {
+  event.preventDefault();
+
   const generalFormName = document.getElementById("general_form_name").value,
     generalFormNum = document.getElementById("generalFormPhone").value,
     generalFormtext = document.getElementById("generalFormtext").value,
     generalErrors = document.querySelectorAll(".generalFromError");
-
-  // grecaptcha.enterprise.ready(async () => {
-  //   const token = await grecaptcha.enterprise.execute(
-  //     "6Lca3QoqAAAAAO9RWJV7BkG5u3AQbK9ayCcv5eeN",
-  //     { action: "LOGIN" }
-  //   );
-  // });
-
-  console.log("This is the test ");
 
   // FOR NAME
   if (!isNaN(generalFormName)) {
@@ -51,29 +44,33 @@ function validation() {
 }
 
 function sendmail() {
-  const generalFormName = document.getElementById("general_form_name").value,
-    generalFormEmail = document.getElementById("generalFormEmail").value,
-    generalFormNum = document.getElementById("generalFormPhone").value,
-    generalFormtext = document.getElementById("generalFormtext").value;
+  const formData = new FormData(document.getElementById("form"));
+  const submitButton = document.getElementById("form_submit_btn");
 
-  const xhr = new XMLHttpRequest();
-  xhr.open("POST", "send_mail.php", true);
-  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-
-  xhr.onload = function () {
-    if (this.status === 200) {
-      document.querySelectorAll(".input_container input").forEach((input) => {
-        input.value = "";
-        document.getElementById("generalFormtext").value = "";
-        document.getElementById("form_submit_btn").innerHTML = "Submitted";
-      });
-    } else {
-      console.error(this.responseText);
-      alert("There is an error sending the message.");
+  // Send AJAX request
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "./mail.php"); // Your mail.php file path
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        // Display success message
+        alert("Email sent successfully!");
+        // Reset form after successful submission
+        document.getElementById("form").reset();
+        submitButton.textContent = "Send Message";
+        submitButton.disabled = false;
+      } else {
+        // Display error message
+        alert("Error: " + xhr.statusText);
+        submitButton.textContent = "Send Message";
+        submitButton.disabled = false;
+      }
     }
   };
-
-  xhr.send(
-    `name=${generalFormName}&email=${generalFormEmail}&phone=${generalFormNum}&message=${generalFormtext}`
-  );
+  xhr.onerror = function () {
+    alert("An error occurred during the transaction");
+    submitButton.textContent = "Send Message";
+    submitButton.disabled = false;
+  };
+  xhr.send(formData);
 }

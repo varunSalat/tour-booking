@@ -4,7 +4,7 @@
     <div class="section_header">
         <h3>Routes Packages</h3>
     </div>
-    <div class="packege_container">
+    <div class="trainding_card_container flex">
         <?php foreach($data as $trip):?>
         <?php foreach($trip->categories as $category):?>
         <?php if($category=="trek"):?>

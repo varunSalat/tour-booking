@@ -38,11 +38,7 @@ require("./function/config.php");
     </div>
     <header id="header">
         <nav id="main_nav" class="flex">
-            <div class="burger_container">
-                <i></i>
-                <i></i>
-                <i></i>
-            </div>
+
             <div class="logo_container">
                 <a href="./" id="text_logo" class="flex"><img src="./img/logo.webp" alt="logo_img">LesssGoTrippy</a>
             </div>
@@ -52,6 +48,11 @@ require("./function/config.php");
                 <li><a href="./routes.php">Routes</a></li>
                 <li><a href="./contact-us.php">Contact Us</a></li>
             </ul>
+            <div class="burger_container">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
             <div class="three_dot_container">
                 <i class="dot-1"></i>
                 <i class="dot-2"></i>

@@ -1535,6 +1535,10 @@ ul li {
     -o-transform: rotate(-45deg) translate(-2px, 2px);
   }
 
+  .three_dot_container {
+    display: none;
+  }
+
   .three_dot_container i {
     display: block;
     width: 5px;

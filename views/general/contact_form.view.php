@@ -1,34 +1,4 @@
-<?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $secretKey = '6LfgKAsqAAAAAN4j9yXpfOrgJTaSa09stn7kN5Aw';
-    $token = $_POST['g-recaptcha-response'];
-    $remoteIp = $_SERVER['REMOTE_ADDR'];
-    echo 'Form submitted !';
-    
-    $recaptchaUrl = 'https://www.google.com/recaptcha/api/siteverify';
-    $response = file_get_contents($recaptchaUrl . '?secret=' . $secretKey . '&response=' . $token . '&remoteip=' . $remoteIp);
-    $responseKeys = json_decode($response, true);
-
-    if ($responseKeys["success"]) {
-        // reCAPTCHA was successfully validated
-        $name = htmlspecialchars($_POST['name']);
-        $email = htmlspecialchars($_POST['email']);
-        $phone = htmlspecialchars($_POST['phone']);
-        $enquiry = htmlspecialchars($_POST['enquiry']);
-        
-        // Process your form data here, e.g., send an email, save to database, etc.
-
-        echo "Form submitted successfully!<br>";
-        echo "Name: " . $name . "<br>";
-        echo "Email: " . $email . "<br>";
-        echo "Phone: " . $phone . "<br>";
-        echo "Enquiry: " . $enquiry . "<br>";
-    } else {
-        // reCAPTCHA validation failed
-        echo 'reCAPTCHA verification failed. Please try again.';
-    }
-}
-?>
+<script src="./scripts/contact-us.js"></script>
 
 <!-- !CONTACT US -->
 <div id="contact_us" class="section">
@@ -37,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 
     <div class="contact_us_container flex">
-        <form id="form" method="POST" action="./mail.php">
+        <form id="form" method="POST" onsubmit="validation(event)">
             <div class="input_container">
                 <input type="text" name="name" id="general_form_name" placeholder="Your Name*" required>
                 <p class="generalFromError">This is an error</p>
@@ -56,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p class="generalFromError">This is an error</p>
             </div>
             <div class="cf-turnstile" data-sitekey="0x4AAAAAAAeu2ys9UmdVa9Id"></div>
-            <button type="submit" id="form_submit_btn" class="g-recaptcha flex btn">
+            <button type="submit" id="form_submit_btn" class="flex btn">
                 Send Request<i class="fa-solid fa-angles-right"></i>
             </button>
         </form>
@@ -77,25 +47,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
 </div>
-
-
-
-<script src="./scripts/contact-us.js"></script>
-<script>
-function onSubmit(event) {
-    // const form = document.getElementById("form");
-    // form.preventDefault();
-    event.preventDefault()
-    console.log(event);
-    console.log(true);
-    grecaptcha.ready(function() {
-        grecaptcha.execute('6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q', {
-            action: 'submit'
-        }).then(function(token) {
-            document.getElementById('g-recaptcha-response').value = token;
-            document.getElementById('form').submit();
-            validation()
-        });
-    });
-}
-</script>

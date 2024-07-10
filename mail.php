@@ -50,26 +50,30 @@ if ($result && isset($result['success']) && $result['success'] === true) {
     $mail = new PHPMailer(true);
 
     try {
-        $mail->SMTPDebug = 0;
+        $mail->SMTPDebug = 2; // Change to 2 for detailed debug output
         $mail->isSMTP();
         $mail->Host       = 'assignmentintelligence.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'test@assignmentintelligence.com';
         $mail->Password   = 'Varun@5677';
-        $mail->SMTPSecure = 'tls';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Use PHPMailer::ENCRYPTION_STARTTLS instead of 'tls'
         $mail->Port       = 587;
 
         $mail->setFrom('filesdoom@gmail.com', 'Assignment Intelligence');
         $mail->addAddress('filesdoom@gmail.com', 'Assignment Intelligence');
 
         $mail->Subject = 'New Client Submission';
-        $mail->Body    = "Name: ".$_POST['name']."\n"."Email: ".$_POST['email']."\n"."phone: ".$_POST['phone']."\n"."enquiry: ".$_POST['enquiry'];
+        $mail->Body    = "Name: ".$_POST['name']."\n"."Email: ".$_POST['email']."\n"."Phone: ".$_POST['phone']."\n"."Enquiry: ".$_POST['enquiry'];
 
         $mail->send();
 
         // Redirect back to the referring page after email is sent
         header("Location: " . $_SERVER['HTTP_REFERER']);
+        exit; // Make sure to exit after redirect
     } catch (Exception $e) {
+        // Log the error
+        error_log('Mail error: ' . $mail->ErrorInfo);
+
         echo '<script>';
         echo 'alert("Captcha verification successful, but email could not be sent. Please try again.");';
         echo 'window.location.href = "' . $_SERVER['HTTP_REFERER'] . '";';
