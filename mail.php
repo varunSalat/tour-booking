@@ -59,8 +59,8 @@ if ($result && isset($result['success']) && $result['success'] === true) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Use PHPMailer::ENCRYPTION_STARTTLS instead of 'tls'
         $mail->Port       = 587;
 
-        $mail->setFrom('filesdoom@gmail.com', 'Assignment Intelligence');
-        $mail->addAddress('filesdoom@gmail.com', 'Assignment Intelligence');
+        $mail->setFrom('filesdoom@gmail.com', 'LesssGoTrippy');
+        $mail->addAddress('filesdoom@gmail.com', 'LesssGoTrippy');
 
         $mail->Subject = 'New Client Submission';
         $mail->Body    = "Name: ".$_POST['name']."\n"."Email: ".$_POST['email']."\n"."Phone: ".$_POST['phone']."\n"."Enquiry: ".$_POST['enquiry'];
@@ -68,7 +68,7 @@ if ($result && isset($result['success']) && $result['success'] === true) {
         $mail->send();
 
         // Redirect back to the referring page after email is sent
-        header("Location: " . $_SERVER['HTTP_REFERER']);
+        // header("Location: " . $_SERVER['HTTP_REFERER']);
         exit; // Make sure to exit after redirect
     } catch (Exception $e) {
         // Log the error
