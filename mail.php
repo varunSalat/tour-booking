@@ -59,11 +59,11 @@ if ($result && isset($result['success']) && $result['success'] === true) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Use PHPMailer::ENCRYPTION_STARTTLS instead of 'tls'
         $mail->Port       = 587;
 
-        $mail->setFrom('filesdoom@gmail.com', 'LesssGoTrippy');
-        $mail->addAddress('filesdoom@gmail.com', 'LesssGoTrippy');
+        $mail->setFrom('support@lesssgotrippy.in', 'LesssGoTrippy');
+        $mail->addAddress('support@lesssgotrippy.in', 'LesssGoTrippy');
 
         $mail->Subject = 'New Client Submission';
-        $mail->Body    = "Name: ".$_POST['name']."\n"."Email: ".$_POST['email']."\n"."Phone: ".$_POST['phone']."\n"."Enquiry: ".$_POST['enquiry'];
+        $mail->Body    = "Name: ".$_POST['name']."\n\n"."Email: ".$_POST['email']."\n\n"."Phone: ".$_POST['phone']."\n\n"."Enquiry: ".$_POST['enquiry'];
 
         $mail->send();
 
