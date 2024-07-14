@@ -14,19 +14,19 @@
         <h4 class="trending_offer_text">Trending Offers</h4>
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img loading="lazy" src="./img/hero_img/offers/1.jpg" />
+                <img loading="lazy" src="./img/hero_img/offers/1.jpg" alt="offer-1" />
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="./img/hero_img/offers/2.jpg" />
+                <img loading="lazy" src="./img/hero_img/offers/2.jpg" alt="offer-2" />
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="./img/hero_img/offers/3.jpg" />
+                <img loading="lazy" src="./img/hero_img/offers/3.jpg" alt="offer-3" />
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="./img/hero_img/offers/4.jpg" />
+                <img loading="lazy" src="./img/hero_img/offers/4.jpg" alt="offer-4" />
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="./img/hero_img/offers/5.jpg" />
+                <img loading="lazy" src="./img/hero_img/offers/5.jpg" alt="offer-5" />
             </div>
         </div>
         <div class="swiper-pagination"></div>

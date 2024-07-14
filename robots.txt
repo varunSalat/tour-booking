@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /vendor/
+Disallow: /vendor/
+Sitemap: https://lesssgotrippy.in/sitemap.xml

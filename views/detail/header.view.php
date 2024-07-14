@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LesssGoTrippy | <?=str_replace('_', ' ',  $_GET["trip"])?></title>
     <meta name="description"
-        content="Trailblenders is a renowned travel community that has been at the forefront of trekking and explorations for many years. ">
-    <meta name="keywords" content="LesssGoTrippy, Tours & Travels Company, Trekking, Hiking">
+        content="We are a group of experienced professionals who are passionate about helping others to explore the world.">
+    <meta name="keywords" content="keywords" content="LesssGoTrippy, Tours & Travels Company, Cab Booking">
     <!-- !FEVICOND ICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
