@@ -61,7 +61,7 @@
                 <p class="client_review">
                     Reaching out to LesssGoTrippy is a breeze compared to other platforms. Their top-notch
                     responsiveness and efficiency make them my go-to choice. I appreciate the ease of contact and
-                    reliable, prompt responses. Their services exceed my expectations, proving them to be a valuable
+                    reliable, prompt responses.
                     resource.
                 </p>
                 <p class="client_name">Dhyani Mehta</p>

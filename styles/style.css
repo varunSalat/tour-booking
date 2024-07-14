@@ -1785,6 +1785,10 @@ ul li {
     height: fit-content;
   }
 
+  .testi_card {
+    height: 360px;
+  }
+
   .star_container {
     margin: 1em 0;
   }
