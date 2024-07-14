@@ -29,7 +29,7 @@
         <ul>
             <li><a href="./privacy-policy.php">Privacy Policy</a></li>
             <li><a href="./terms-condition.php">Terms & Conditions</a></li>
-            <li><a href="./sitemap.php">Sitemap</a></li>
+            <li><a href="./sitemap.xml">Sitemap</a></li>
         </ul>
     </div>
     <div class="footer_div">
