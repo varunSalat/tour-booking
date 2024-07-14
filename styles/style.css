@@ -547,12 +547,12 @@ ul li {
 
 .packge_card:first-child {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/hero_img/left.png) center/cover no-repeat;
+    url(../img/hero_img/left.webp) center/cover no-repeat;
 }
 
 .packge_card:last-child {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/hero_img/right.jpg) center/cover no-repeat;
+    url(../img/hero_img/right.webp) center/cover no-repeat;
 }
 
 /* .packge_card:hover {
@@ -1781,6 +1781,8 @@ ul li {
 
   .swiper-slide {
     margin: 0 0.5em;
+    min-height: fit-content;
+    height: fit-content;
   }
 
   .star_container {

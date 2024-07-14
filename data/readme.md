@@ -45,7 +45,7 @@
 "seats": 30,
 "categories": ["trending", "tour"],
 "imgs": [
-"https://deih43ym53wif.cloudfront.net/Rajpath-delhi-shutterstock_1195751923.jpg_7647e1aad2.jpg"
+"https://deih43ym53wif.cloudfront.net/Rajpath-delhi-shutterstock_1195751923.webp_7647e1aad2.webp"
 ],
 "quickFacts": [""],
 "itenery": [

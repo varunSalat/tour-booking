@@ -1,5 +1,5 @@
 <section id="hero_section">
-    <img class="about_hero_img hero_img" src="./img/contact_us/hero-img.jpg" alt="hero_img">
+    <img class="about_hero_img hero_img" src="./img/contact_us/contact-us-hero-img.webp" alt="hero_img">
     <div class="hero_dis">
         <h1 class="main_header">Get in Touch</h1>
 

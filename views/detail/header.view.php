@@ -42,7 +42,7 @@
     <div class="preloader_container">
         <div class="preloader_inner_container">
             <figure>
-                <img src="./img/logo-with-bg.jpg" alt="prealoder">
+                <img src="./img/logo-with-bg.webp" alt="prealoder">
                 <img src="./img/loader.gif" alt="prealoder" id="line-loader">
             </figure>
         </div>

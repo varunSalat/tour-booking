@@ -89,7 +89,7 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
   autoplay: {
-    delay: 1000, // Delay between transitions in milliseconds
+    delay: 2000, // Delay between transitions in milliseconds
     disableOnInteraction: false, // Keep autoplay running even after user interaction
   },
 });
