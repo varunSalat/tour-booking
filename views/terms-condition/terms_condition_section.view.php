@@ -6,12 +6,12 @@
     <div class="container">
         <div class="content-grid">
             <div>
-                <p class="paragraph">Welcome to LesssGoTrippy.com ("us", "we", or "our"). Our website
-                    (LesssGoTrippy.com) offers travel-related products and services under these terms and conditions. By
+                <p class="paragraph">Welcome to LesssGoTrippy.in ("us", "we", or "our"). Our website
+                    (LesssGoTrippy.in) offers travel-related products and services under these terms and conditions. By
                     accessing or using our site, you agree to be bound by these terms.</p>
 
                 <h2 class="section-title">General Terms</h2>
-                <p class="paragraph">Use of Our Service: By accessing and placing an order with LesssGoTrippy.com, you
+                <p class="paragraph">Use of Our Service: By accessing and placing an order with LesssGoTrippy.in, you
                     confirm your agreement to our terms and conditions. We are not liable for any indirect damages
                     arising from your use or inability to use our site. We may change prices and policies at any time
                     and will notify you of significant changes through email.</p>
@@ -31,7 +31,7 @@
                     us immediately. <br /> <br /> Payment Processing: We use secure third-party payment processors.
                     During transactions, these processors may ask for personal details like your name, address, email,
                     and credit card information. The privacy policies of these third-party payment processors govern
-                    their data handling. LesssGoTrippy.com is not responsible for their practices.</p>
+                    their data handling. LesssGoTrippy.in is not responsible for their practices.</p>
 
                 <h2 class="section-title">Order Cancellation and Refunds</h2>
                 <p class="paragraph">Cancellation Policy: If you need to cancel a booking, refer to our cancellation
@@ -54,7 +54,7 @@
 
                 <h2 class="section-title">Data Retention</h2>
                 <p class="paragraph">Terms Modification: We may modify these terms at any time. Continued use of
-                    LesssGoTrippy.com signifies acceptance of these changes.</p>
+                    LesssGoTrippy.in signifies acceptance of these changes.</p>
 
                 <h2 class="section-title">Liability Cap</h2>
                 <p class="paragraph">Liability Limitation: We are not liable for data loss, lost profits, or any damages

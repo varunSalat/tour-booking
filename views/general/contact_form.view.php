@@ -37,7 +37,7 @@
             </div>
             <div class="quick_contact_card flex">
                 <i class="fa-solid fa-envelope"></i>
-                <a href="mailto:info.lesssgotrippy@gmail.com" class="flex mail-text">Send Email <i
+                <a href="mailto:support@lesssgotrippy.in" class="flex mail-text">Send Email <i
                         class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div class="quick_contact_card flex">

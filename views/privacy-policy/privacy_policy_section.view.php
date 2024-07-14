@@ -8,7 +8,7 @@
             <div>
                 <p class="paragraph">This Privacy Policy outlines our practices regarding the collection, use, and
                     sharing of personal information through our digital products and services, including LesssGoTrippy
-                    (LesssGoTrippy.com). By using our services, provided by LesssGoTrippy.com, you agree to the
+                    (LesssGoTrippy.in). By using our services, provided by LesssGoTrippy.in, you agree to the
                     collection and use of information as described in this policy.</p>
 
                 <h2 class="section-title">Information Collected</h2>
