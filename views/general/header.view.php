@@ -25,6 +25,19 @@ require("./function/config.php");
     <link rel="stylesheet" href="./styles/style.css?v=<?=$version?>">
     <!-- Google recaptcha -->
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H08ZSPPF9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-6H08ZSPPF9');
+    </script>
 </head>
 
 <body>

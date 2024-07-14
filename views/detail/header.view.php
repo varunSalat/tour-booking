@@ -24,6 +24,18 @@
     <link rel="stylesheet" href="./styles/packge.css?v=<?=$version?>">
     <!-- Google recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js?render=6LfgKAsqAAAAAFUgWZDvF_UvyCDlsP6-BYhREs9q"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H08ZSPPF9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-6H08ZSPPF9');
+    </script>
 </head>
 
 <body>
